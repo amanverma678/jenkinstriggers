@@ -1,9 +1,7 @@
-#this is my first commit
-pipeline {
-    agent any
-    stages('Build') {
-        steps{
-            sh 'echo "Build Completed."'
+Pipeline {
+    stages{
+        steps('Bluid') {
+            sh 'echo "This is my first Bluid"'
         }
     }
 }
