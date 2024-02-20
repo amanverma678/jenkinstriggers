@@ -1,4 +1,5 @@
 Pipeline {
+    agent any
     stages{
         steps('Bluid') {
             sh 'echo "This is my first Bluid"'
